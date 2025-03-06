@@ -12,6 +12,23 @@
     </header>
     <main>
       <canvas id="gameCanvas"></canvas>
+
+      <div id="gameStartDiv" class="gameUI" >
+        <h1>Apple Catcher</h1>
+        <p>you have 30 seconds to catch apples</p>
+        <p>if you catch more than 10 apples you win</p>
+        <p>if you catch less than 10 apples you lose</p>
+        <p>click the button to start the game</p>
+        <button id="gameStartButton">Start Game</button>
+      </div>
+
+      <div id="gameEndDiv" class="gameUI" >
+        <p>Game Over</p>
+        <h1>You <span id="gameWinLoseSpan"></span></h1>
+        <h1>Final Score: <span id="gameEndScoreSpan"></span></h1>
+        <p>refresh page to play again</p>
+      </div>
+
     </main>
     <footer>
       <p>Created By Ulifly 2025</p>
